@@ -1,0 +1,50 @@
+/* Color Theme Swatches in Hex */
+.Hamker-Theme-Color-1-hex { color: #805749; }
+.Hamker-Theme-Color-2-hex { color: #FFE7DE; }
+.Hamker-Theme-Color-3-hex { color: #FFAF91; }
+.Hamker-Theme-Color-4-hex { color: #80736F; }
+.Hamker-Theme-Color-5-hex { color: #CC8C74; }
+
+
+.App{
+  text-align: center;
+}
+.header{
+  height: 60px;
+  padding: 0 20px;
+  font-size: calc(10px + 2vmin);
+  text-align: left;
+  color: white;
+  background-color: #CC8C74;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+.list{
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid #805749 ;
+}
+
+.list h4{
+  cursor: pointer;
+}
+
+.Btn{
+  margin: 15px 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.modal{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #FFE7DE;
+  text-align: left;
+}
