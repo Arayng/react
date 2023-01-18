@@ -1,0 +1,68 @@
+/* Color Theme Swatches in Hex */
+.Hamker-Theme-Color-1-hex { color: #805749; }
+.Hamker-Theme-Color-2-hex { color: #FFE7DE; }
+.Hamker-Theme-Color-3-hex { color: #FFAF91; }
+.Hamker-Theme-Color-4-hex { color: #80736F; }
+.Hamker-Theme-Color-5-hex { color: #CC8C74; }
+
+.App {
+  text-align: center;
+}
+
+.nav-bg{
+  background: #805749;
+}
+.nav-link:after{
+  content:'';
+  display: block;
+  width: 100%;
+  transform: scaleX(0);
+  border-bottom: 2px solid #FFE7DE;
+  transition: transform 0.7s
+}
+
+.active.nav-link:after{
+  transform: scaleX(1);
+}
+
+.main-banner{
+  margin: 10px auto;
+}
+
+.main-banner img{
+  width: 100%;
+  height: 100%;
+}
+
+.item-img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.item h4{
+  margin-top: 10px
+}
+
+.btn-primary{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #805749;
+  --bs-btn-border-color: #805749;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #CC8C74;
+  --bs-btn-hover-border-color: #CC8C74;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #CC8C74;
+  --bs-btn-active-border-color: #CC8C74;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #80736F;
+  --bs-btn-disabled-border-color: #80736F;
+}
+.modal-btn{
+  margin-top : 10px;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
