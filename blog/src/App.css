@@ -27,9 +27,11 @@ div{
 }
 
 .list{
-  padding-left: 20px;
+  padding: 0 20px;
   text-align: left;
   border-bottom: 1px solid #805749 ;
+  display: flex;
+  justify-content: space-between;
 }
 
 .list h4{
@@ -47,4 +49,31 @@ div{
   padding: 20px;
   background-color: #FFE7DE;
   text-align: left;
+}
+
+.inputBox{
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 2px solid #805749;
+  outline: none;
+  text-align: start;
+}
+
+.cssBtn{
+  min-width: 80px;
+  line-height: 30px;
+  padding: 0 15px;
+  margin: 0 8px;
+  border-radius: 7px;
+  border: none;
+  box-sizing: border-box;
+  background-color: #805749;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.4s;
+}
+.cssBtn:hover{
+  background-color: #CC8C74;
 }
